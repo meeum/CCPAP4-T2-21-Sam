@@ -4,10 +4,19 @@ body {
     background-color: green;
 }
 
+img {
+    max-width: 100%;
+}
+
+
+/* layouts*/
 .layout-wide {
     background-color: red;
 
     max-width: 1200px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Headings and typography */
