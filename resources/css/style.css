@@ -2,6 +2,8 @@
 
 body {
     background-color: green;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -20,6 +22,16 @@ img {
 }
 
 /* Headings and typography */
+
+h1 {
+    font-size: 48px;
+}
+
+
+
+h2 {
+    
+}
 
 /* Header */
 
