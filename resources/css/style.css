@@ -1,0 +1,9 @@
+body {
+    background-color: yellow;
+}
+
+.layout-wide {
+    background-color: red;
+
+    max-width: 1200px;
+}
