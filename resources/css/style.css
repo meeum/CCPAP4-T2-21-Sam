@@ -1,12 +1,14 @@
 @import url("normalize.css");
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap');
+
 
 /* Global defaults */
 
 body {
     background-color: #f1f1f1;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -25,15 +27,29 @@ img {
 
 /* Headings and typography */
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    font-family: 'Lobster', cursive;
+}
+
 h1 {
     font-size: 48px;
 }
 
-
-
 h2 {
-    
+    font-size: 32px;
 }
+
+h3 {
+    font-size: 24px;
+}
+
+
+
 
 /* Header */
 
