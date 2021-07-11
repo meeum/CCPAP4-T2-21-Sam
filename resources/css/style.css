@@ -8,11 +8,11 @@
 html {
     font-size: 20px;
     line-height: 1.5;
+    color: #000000;
 }
 
 body {
     background-color: #f1f1f1;
-
     font-family: 'Rubik', sans-serif;
 }
 
@@ -39,6 +39,8 @@ h4,
 h5 {
 
     font-family: 'Lobster', cursive;
+    color: #222222;
+   
 }
 
 h1 {
@@ -48,6 +50,7 @@ h1 {
 
 h2 {
    font-size: 3rem;
+   
 }
 
 h3 {
