@@ -73,6 +73,14 @@ h3 {
 
 /* Header */
 
+header {
+    background-color: rgb(6, 58, 6);
+}
+
+header p {
+    color: #f1f1f1;
+}
+
 /* Navigation */
 
 /* footer */
