@@ -73,6 +73,19 @@ h3 {
    font-size: 2rem;
 }
 
+.albatross {
+    text-align: right;
+
+}
+
+.eagle {
+    text-align: center;
+}
+
+.driver {
+    text-align: justify;
+}
+
 
 
 
