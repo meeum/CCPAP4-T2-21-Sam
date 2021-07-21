@@ -9,11 +9,22 @@ html {
     font-size: 20px;
     line-height: 1.5;
     color: #000000;
+
+    /* let's declare some variables*/
+    --main-font: 'Rubik', sans-serif;
+    --secondary-font: 'Lobster', cursive;
+
+    --heading-font-color: #222; 
+
+    --main-color: #f1f1f1; 
+    --alternate-color: #0e2b02e8;
+
+    --vertical-spacer: 40px;
 }
 
 body {
-    background-color: #f1f1f1;
-    font-family: 'Rubik', sans-serif;
+    background-color: var(--main-color);
+    font-family: var(--main-font)
 }
 
 
@@ -22,7 +33,7 @@ img {
 }
 
 a {
-    color: rgb(6, 58, 6);
+    color: var(--alternate-color);
     font-weight: bold;
 }
 
@@ -54,8 +65,8 @@ h3,
 h4,
 h5 {
 
-    font-family: 'Lobster', cursive;
-    color: #222222;
+    font-family: var(--secondary-font);
+    color: var(--heading-font-color);
     font-weight: normal;
 }
 
@@ -92,8 +103,8 @@ h3 {
 /* Header */
 
 header {
-    background-color: rgb(6, 58, 6);
-    color: #f1f1f1;
+    background-color: var(--alternate-color);
+    color: var(--main-color);
     text-align: center;
 }
 
@@ -136,11 +147,12 @@ header {
 /* footer */
 
 footer {
-    background-color: rgb(6, 58, 6);
+    background-color:var(--alternate-color);
+    text-align: center;
 }
 
 footer p {
-    color: #f1f1f1;
+    color: var(--main-color);
 }
 
 /* modules */
@@ -160,7 +172,7 @@ footer p {
     .news-component {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 100px;
+        margin-bottom: var(--vertical-spacer);
     }
 
     .news-component-4-grid {
