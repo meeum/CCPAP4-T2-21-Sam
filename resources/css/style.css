@@ -106,6 +106,30 @@ header {
     font-family: 'Lobster', cursive;
 }
 
+@media screen and (min-width: 800px) {
+
+        header {
+            text-align: left;
+        }
+
+        .header-text {
+            font-size: 3rem;
+            text-align: right;
+        }
+
+        .header-image {
+            max-width: 100px;
+        }
+
+        header .layout-wide {
+            display: grid;
+            grid-template-columns: 200px auto;
+        }
+
+
+
+}
+
 
 /* Navigation */
 
