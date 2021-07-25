@@ -17,7 +17,7 @@ html {
     --heading-font-color: #222; 
 
     --main-color: #f1f1f1; 
-    --alternate-color: #0e2b02e8;
+    --alternate-color: #0e2b02;
 
     --vertical-spacer: 40px;
 }
@@ -143,6 +143,27 @@ header {
 
 
 /* Navigation */
+
+.navigation {
+    background-color: var(--alternate-color);
+}
+
+.main-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.main-nav a {
+    color: var(--main-color);
+    font-weight: normal;
+    text-decoration: none;
+}
 
 /* footer */
 
