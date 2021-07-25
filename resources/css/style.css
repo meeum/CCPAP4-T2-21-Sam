@@ -186,6 +186,27 @@ header {
     text-decoration: none;
 }
 
+/* this is for the navigation on mobile view ONLY */
+
+@media screen and (max-width: 800px) {
+
+    .nav-inner {
+        max-height: 0;
+        overflow: hidden;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+    }
+
+    .nav-inner.open {
+        max-height: 100vh;
+    }
+}
+
+
+
+
+/* this is to hide the nav button in desktop view */
 @media screen and (min-width: 800px) {
 
     .nav-prompt {
