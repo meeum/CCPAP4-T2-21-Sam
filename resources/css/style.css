@@ -167,6 +167,10 @@ header {
 
 @media screen and (min-width: 800px) {
 
+    .nav-prompt {
+        display: none;
+    }
+
     .main-nav {
         display: flex;
         justify-content: space-between;
