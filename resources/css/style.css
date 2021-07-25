@@ -144,6 +144,27 @@ header {
 
 /* Navigation */
 
+.nav-prompt {
+    cursor: pointer;
+
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+    color: var(--main-color);
+    border-top-width: 1px;
+    border-top-color: var(--main-color);
+    border-top-style: solid;
+
+    border-bottom-width: 1px;
+    border-bottom-color: var(--main-color);
+    border-bottom-style: solid;
+
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+
 .navigation {
     background-color: var(--alternate-color);
 }
