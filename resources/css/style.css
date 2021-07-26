@@ -17,7 +17,9 @@ html {
     --heading-font-color: #222; 
 
     --main-color: #f1f1f1; 
-    --alternate-color: #0e2b02;
+    --alternate-color: #4952a3;
+
+    --link-color: #ff5b5e;
 
     --vertical-spacer: 40px;
 }
@@ -33,7 +35,7 @@ img {
 }
 
 a {
-    color: var(--alternate-color);
+    color: var(--link-color);
     font-weight: bold;
 }
 
@@ -114,6 +116,7 @@ header {
 
 .header-text {
     font-size: 2rem;
+    font-weight: bold;
     font-family: var(--secondary-font);
 }
 
@@ -124,7 +127,7 @@ header {
         }
 
         .header-text {
-            font-size: 3rem;
+            font-size: 4rem;
             text-align: right;
         }
 
