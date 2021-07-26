@@ -13,3 +13,10 @@ function openNav() {
 
 
 openNav();
+
+// this is for the gallery
+
+var lightbox = new SimpleLightbox('.gallery a', {
+    //options go here
+});
+
