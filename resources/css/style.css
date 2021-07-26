@@ -1,6 +1,6 @@
 @import url("normalize.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik:wght@400;700&display=swap');
 
 
 /* Global defaults */
@@ -11,8 +11,8 @@ html {
     color: #000000;
 
     /* let's declare some variables*/
-    --main-font: 'Rubik', sans-serif;
-    --secondary-font: 'Lobster', cursive;
+    --main-font: 'Karla', sans-serif;
+    --secondary-font: 'Rubik', cursive;
 
     --heading-font-color: #222; 
 
@@ -114,7 +114,7 @@ header {
 
 .header-text {
     font-size: 2rem;
-    font-family: 'Lobster', cursive;
+    font-family: var(--secondary-font);
 }
 
 @media screen and (min-width: 800px) {
