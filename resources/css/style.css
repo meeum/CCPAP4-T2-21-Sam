@@ -235,6 +235,21 @@ footer p {
     color: var(--main-color);
 }
 
+
+/* subs form */
+.subscription-wrapper {
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.subscription-wrapper label {
+    color: #34495e;
+    display: block;
+    font-size: 26px;
+}
+
+
 /* modules */
 .content-box {
     background-color: white;
