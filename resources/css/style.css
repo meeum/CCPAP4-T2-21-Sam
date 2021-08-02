@@ -321,7 +321,8 @@ footer p {
         position: relative;
     }
 
-    .hero-component img {
+    .hero-component img,
+    .hero-component video {
         width: 100%;
     }
 
